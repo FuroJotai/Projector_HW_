@@ -35,8 +35,3 @@ if gifs:
     for gif in gifs:
         print(gif)
 
-# earned requests :
-# https://giphy.com/gifs/disneystudios-the-lion-king-OqFpgF7bet1sRoCmpb
-# https://giphy.com/gifs/uefa-sports-football-sport-JHjrh6oMG8ZfH1abnU
-# https://giphy.com/gifs/ukraine-vj-loop-vjloops-3o85xz91Pwi4f4ncty
-# https://giphy.com/gifs/evolution-axolotl-adapt-or-die-DDr9FUgtGgBKxBnF7T
