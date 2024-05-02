@@ -7,7 +7,7 @@ def search_gifs(search):
     params = {
         'api_key': api,
         'q': search,
-        'limit': 5  # Ограничение на количество возвращаемых GIF
+        'limit': 5  
     }
 
     response = requests.get(url, params=params)
