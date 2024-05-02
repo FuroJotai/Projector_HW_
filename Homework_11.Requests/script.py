@@ -20,7 +20,7 @@ def search_gifs(search):
         for gif in data['data']:
             gif_urls.append(gif['url'])
 
-            return gif_urls
+        return gif_urls
         
     else:
         print('Error request in searching Gif! Pls try again!')
