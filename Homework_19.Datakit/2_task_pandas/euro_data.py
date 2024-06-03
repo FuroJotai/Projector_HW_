@@ -6,7 +6,7 @@ euro_data = pd.read_csv(url)
 
 
 # 1. Find team with yellow and red cards
-condition_cards = (euro_data['Red Cards'] & euro_data['Yellow Cards'] > 0)
+condition_cards = (euro_data["Red Cards"] > 0) & (euro_data['Yellow Cards'] > 0)
 team_with_cards = euro_data.loc[condition_cards, 'Team']
 print(team_with_cards)
 

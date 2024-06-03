@@ -1,16 +1,5 @@
 import numpy as np
 
-def calculate_x(x):
-    result = []
-    for num in x:
-        f_x = np.exp(-num)
-        result.append(f_x)
+array_of_x, array_of_func = np.arange(-10, 11), np.exp(np.arange(-10, 11))
 
-    return np.array(result)   
-
-array_of_x = np.arange(-10, 11) 
-
-array_of_func = calculate_x(array_of_x)
-
-for x, fx in zip(array_of_x, array_of_func):
-    print(f'x = {x}, F(x) = {fx}')
+print("\n".join([f'x = {x} F(x) = {f_x}' for x, f_x in zip(array_of_x, array_of_func)]))
